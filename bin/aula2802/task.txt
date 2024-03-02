@@ -1,0 +1,13 @@
+a) Uma concessionária está oferecendo descontos nos preços dos seus veículos de acordo com o tipo de combustível. Os descontos estão estruturados da seguinte forma: para veículos com álcool são 25% , com gasolina são 21% e com diesel são 14%. Crie uma função que receba o valor do veículo e o tipo de combustível e retorne o resultado do cálculo do valor de desconto. Crie também uma função que calcule e retorne o valor a ser pago pelo cliente com o desconto. Exiba o valor do carro sem desconto, o desconto concedido, o valor do desconto e o valor do carro com desconto.
+
+
+b) Construa um vetor que recebe 10 valores inteiros lidos através do teclado. Exiba o vetor resultante na ordem inversa da qual os dados estão inseridos.
+Após, leia um número inteiro e procure por este valor no vetor respeitando a ordem na qual os dados foram inseridos. Se encontrar, exiba o número lido e o índice da primeira ocorrência deste valor. Se não encontrar, exiba a mensagem "Valor X não encontrado" onde o X é o número lido.
+
+
+c) Construa uma matriz de 5x4 que em cada posição receba um número randômico entre 0 e 99. Exiba a matriz gerada de maneira adequada na tela. Depois, crie um vetor que armazene os valores de todos os números pares da matriz e exiba o resultado do vetor. Use a classe Random para geração de valores aleatórios.
+import java.util.Random;
+Random rdm = new Random();
+int valor = rdm.nextInt(100);
+
+d) Crie pequeno jogo de adivinhação onde inicialmente deve-se gerar um número aleatório inteiro entre 0 e 50 que será o "número secreto". Em seguida solicite que o usuário digite um número inteiro. Se o número digitado for menor que o número secreto, imprima “O número secreto é MAIOR”, se o número digitado for maior que o número secreto, imprima “O número secreto é MENOR”. O usuário deve ter 10 tentativas de digitação de um número. Caso em algum momento ele acerte, o sistema deve apresentar a mensagem "Parabéns, você acertou em X tentativas!" onde X é o número de tentativas que ele levou para acertar e encerrar a execução. Caso o usuário não consiga acertar nas 10 tentativas, apresente uma mensagem desejando "Boa sorte na próxima!".
