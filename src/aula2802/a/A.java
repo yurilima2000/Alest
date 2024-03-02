@@ -2,7 +2,7 @@ package aula2802.a;
 
 public class A {
     public static void main(String []args){
-        ///
+        ///////
         Combustivel a = Combustivel.ALCOOL;
         Combustivel b = Combustivel.GASOLINA;
         Combustivel c = Combustivel.DIESEL;
