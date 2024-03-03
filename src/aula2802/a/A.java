@@ -6,7 +6,7 @@ public class A {
         Combustivel a = Combustivel.ALCOOL;
         Combustivel b = Combustivel.GASOLINA;
         Combustivel c = Combustivel.DIESEL;
-        double valorCarro = 100;
+        double valorCarro = 1000;
 
         line();
         double valorDesconto = calculaDesconto(valorCarro, a);
